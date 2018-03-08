@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ JEnvelope: A program that prints envelopes from iCloud contacts.
+  ~
+  ~ Copyright(c) 2012-2018, Beowurks.
+  ~ License: Eclipse Public License - v 2.0 (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
+  ~
+  ~
+  -->
+
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="Invoice" pageWidth="684" pageHeight="297" orientation="Landscape"
+              whenNoDataType="AllSectionsNoDetail" columnWidth="670" leftMargin="7" rightMargin="7" topMargin="7"
+              bottomMargin="7" uuid="0aaea21a-dd5f-4367-b1da-810bbf10ad52">
+    <property name="ireport.zoom" value="2.0"/>
+    <property name="ireport.x" value="0"/>
+    <property name="ireport.y" value="0"/>
+    <style name="Addressee" hAlign="Left" vAlign="Middle" fontName="Arial" fontSize="12" isBold="false" isItalic="false"
+           isUnderline="false" isStrikeThrough="false"/>
+    <style name="ReturnHeader" hAlign="Center" vAlign="Middle" fontName="Arial" fontSize="10" isBold="true"
+           isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+    <style name="Return" hAlign="Center" vAlign="Middle" fontName="Arial" fontSize="9" isBold="false" isItalic="false"
+           isUnderline="false" isStrikeThrough="false"/>
+    <parameter name="parName" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["Nicholas E Dann MD"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parStreet" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["Suite 444<br />12313 Balcones Club"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parCityStateZip" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["Beeville, Texas 78552"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parAddrName" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["Mr. Bob McKinley"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parAddrAddress" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["1233 Belgin Drive Circle"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parAddrCity" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["Houston"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parAddrState" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["Montana"]]></defaultValueExpression>
+    </parameter>
+    <parameter name="parAddrZipcode" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA["78755-5644"]]></defaultValueExpression>
+    </parameter>
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="5" splitType="Stretch"/>
+    </title>
+    <pageHeader>
+        <band height="219" splitType="Stretch">
+            <textField isBlankWhenNull="true">
+                <reportElement uuid="c80d6e76-e632-4035-b98c-0e9c39c3fba5" style="Addressee" x="352" y="147" width="289"
+                               height="15"/>
+                <textElement markup="html"/>
+                <textFieldExpression><![CDATA[$P{parAddrName}]]></textFieldExpression>
+            </textField>
+            <textField isStretchWithOverflow="true" isBlankWhenNull="true">
+                <reportElement uuid="caf36012-4612-4c4b-8a97-5296ddc5f820" style="Addressee" x="352" y="162" width="289"
+                               height="15"/>
+                <textElement markup="html"/>
+                <textFieldExpression><![CDATA[$P{parAddrAddress}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement uuid="faf5e0b2-18d7-4020-892f-c435ed5ae4a9" style="Addressee" positionType="Float"
+                               x="352"
+                               y="177" width="289" height="15"/>
+                <textElement markup="html"/>
+                <textFieldExpression>
+                    <![CDATA[$P{parAddrCity} + ", " + $P{parAddrState} + " " + $P{parAddrZipcode}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement uuid="125a0ff6-d1a2-45af-b6ed-85c03d5c14b6" style="ReturnHeader" x="26" y="3" width="121"
+                               height="12"/>
+                <textElement markup="html"/>
+                <textFieldExpression><![CDATA[$P{parName}.trim()]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement uuid="b608b2a7-e437-4f44-9af2-852ed84c280c" style="Return" positionType="Float" x="26"
+                               y="27"
+                               width="121" height="12"/>
+                <textElement markup="html"/>
+                <textFieldExpression><![CDATA[$P{parCityStateZip}.trim()]]></textFieldExpression>
+            </textField>
+            <textField isStretchWithOverflow="true">
+                <reportElement uuid="7608782f-7fe4-4611-bbe7-ab1e364598db" style="Return" x="26" y="15" width="121"
+                               height="12"/>
+                <textElement markup="html"/>
+                <textFieldExpression><![CDATA[$P{parStreet}.trim()]]></textFieldExpression>
+            </textField>
+            <componentElement>
+                <reportElement uuid="1c73ff67-83d3-424f-9d20-a7a7a440899c" isPrintRepeatedValues="false" x="347" y="132"
+                               width="289" height="15"/>
+                <jr:POSTNET xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                            xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd"
+                            textPosition="none" checksumMode="add" displayChecksum="true">
+                    <jr:codeExpression><![CDATA[$P{parAddrZipcode}]]></jr:codeExpression>
+                </jr:POSTNET>
+            </componentElement>
+        </band>
+    </pageHeader>
+</jasperReport>

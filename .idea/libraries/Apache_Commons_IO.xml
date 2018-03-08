@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Apache Commons IO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/commons-io/commons-io-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
