@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ JEnvelope: A program that prints envelopes from iCloud contacts.
+  ~
+  ~ Copyright(c) 2012-2019, Beowurks.
+  ~ License: Eclipse Public License - v 2.0 (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
+  ~
+  ~
+  -->
+
 <jnlp spec="1.0+" codebase="https://www.beowurks.com/Software/JEnvelope/" href="JEnvelope.jnlp">
   <information>
     <title>JEnvelope</title>

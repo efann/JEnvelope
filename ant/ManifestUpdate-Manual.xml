@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <!--
-  ~ JConsult: A legacy Java Swing program that tracks hours for consultation.
+  ~ JEnvelope: A program that prints envelopes from iCloud contacts.
   ~
-  ~ Copyright(c) 1990-2018, Beowurks.
-  ~ License: Eclipse Public License
+  ~ Copyright(c) 2012-2019, Beowurks.
+  ~ License: Eclipse Public License - v 2.0 (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
   ~
-
-  This build file needs to be run manually before building the artifact.
-
+  ~
   -->
 
 <project name="ManifestUpdate-Manual" default="build" basedir="..//">
@@ -15,7 +13,7 @@
   <property name="dirs.base" value="${basedir}"/>
 
   <property name="Beo.Title" value="JEnvelope"/>
-  <property name="Beo.Version" value="2018.0.7"/>
+  <property name="Beo.Version" value="2019.0.7"/>
   <property name="Beo.Vendor" value="Beowurks"/>
   <property name="Beo.AppClass" value="com.beowurks.JEnvelope.Application"/>
 
