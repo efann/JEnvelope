@@ -21,8 +21,6 @@ import com.beowurks.BeoCommon.Util;
 import com.beowurks.BeoLookFeel.LFDialog;
 import com.beowurks.JEnvelope.forms.DialogPrinterInfo1;
 import com.beowurks.JEnvelope.jasperreports.DialogPrintEnvelope;
-import com.beowurks.apple.eawt.IOSXAdapter;
-import com.beowurks.apple.eawt.OSXAdapterHelper;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -50,10 +48,8 @@ import java.util.Vector;
 // ---------------------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------------------------------------
 
-public class FrameMain extends FrameJEnvelopeBase implements ActionListener, MouseMotionListener, MouseListener,
-    IOSXAdapter
+public class FrameMain extends FrameJEnvelopeBase implements ActionListener, MouseMotionListener, MouseListener
 {
-
   private final static String FONT_NAME = "Arial";
   private final static int DISPLAY_BORDER = 70;
 
@@ -133,9 +129,6 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     this.setupLabels();
     this.setupListeners();
     this.setupLayouts();
-
-    // Only sets up if running on a Mac.
-    OSXAdapterHelper.setupOSXAdapter(this);
 
     this.readProperties();
     this.updateManualEntry(true);
@@ -378,12 +371,12 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     try
     {
       final BufferedImage loLogo = ImageIO.read(this.getClass().getResource("/com/beowurks/JEnvelope/images/JEnvelope.png"));
-      final String lcTitleURL = "http://www.beowurks.com/applications/single/JConsult-Suite";
+      final String lcTitleURL = "https://www.beowurks.com/applications/single/JConsult-Suite";
 
       final IAbout loAbout = new AboutAdapter(Util.getTitle(), lcTitleURL,
           loLogo, lcTitleURL,
-          "Eclipse Public License 1.0", "http://opensource.org/licenses/eclipse-1.0.php",
-          1990, "Beowurks", "http://www.beowurks.com/");
+          "Eclipse Public License 2.0", "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html",
+          1990, "Beowurks", "https://www.beowurks.com/");
 
       new DialogAbout(BaseFrame.getActiveFrame(), loAbout);
     }
@@ -977,37 +970,6 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     {
       this.setMessageBarText(((JMenuItem) loSource).getToolTipText());
     }
-  }
-
-  // ---------------------------------------------------------------------------------------------------------------------
-  // ---------------------------------------------------------------------------------------------------------------------
-  // Interface IOSXAdapter
-  // These routines are only called when a user selects from Mac OS X
-  // application menu.
-  @Override
-  public void AboutHandler()
-  {
-    this.showAbout();
-  }
-
-  // ---------------------------------------------------------------------------------------------------------------------
-  @Override
-  public void PreferencesHandler()
-  {
-    Util.infoMessage(this, "There aren't any preferences for this application");
-  }
-
-  // ---------------------------------------------------------------------------------------------------------------------
-  @Override
-  public void QuitHandler()
-  {
-    this.performShutdownMaintenance();
-  }
-
-  // ---------------------------------------------------------------------------------------------------------------------
-  @Override
-  public void FileHandler(final String tcFileName)
-  {
   }
   // ---------------------------------------------------------------------------------------------------------------------
 }

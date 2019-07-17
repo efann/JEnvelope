@@ -3,7 +3,9 @@
     <output-path>$PROJECT_DIR$/out/artifacts/JEnvelope</output-path>
     <root id="archive" name="JEnvelope.jar">
       <element id="module-output" name="JEnvelope" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/commons-exec/commons-exec-1.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/commons-io/commons-io-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../BeoBasis/BeoBasis-unsigned.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jasper-reports/barcode4j-2.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jasper-reports/batik-anim.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jasper-reports/batik-awt-util.jar" path-in-jar="/" />
@@ -40,8 +42,6 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jasper-reports/xml-apis-1.3.02.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jasper-reports/xml-apis-ext.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jasper-reports/xmlbeans-2.3.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/commons-exec/commons-exec-1.3.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/BeoBasis/BeoBasis-1.35-unsigned.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

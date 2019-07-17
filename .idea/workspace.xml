@@ -10,12 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f92bb0-41f3-46a3-804b-f127feb20b48" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JEnvelope_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JEnvelope_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/BeoBasis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/BeoBasis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEnvelope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JEnvelope.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/launch.sh" beforeDir="false" />
     </list>
     <ignored path="JEnvelope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,52 +70,28 @@
     </breakpoint_any>
     <breakpoint_rules converted="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="JEnvelope" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/AppProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/AddressesXML.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8262">
-              <caret line="486" column="18" selection-start-line="486" selection-start-column="18" selection-end-line="486" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="74" selection-start-line="83" selection-start-column="74" selection-end-line="83" selection-end-column="74" />
+            <state relative-caret-position="6">
+              <caret line="356" column="43" selection-start-line="356" selection-start-column="43" selection-end-line="356" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/Global.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -128,6 +104,7 @@
       <find>addresses.</find>
       <find>http://www.beowurks.com/</find>
       <find>obtaining</find>
+      <find>about</find>
     </findStrings>
     <replaceStrings>
       <replace>package com.beowurks.JEnvelope</replace>
@@ -170,13 +147,14 @@
         <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/jasperreports/DialogPrintEnvelope.java" />
         <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/Application.java" />
         <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/Global.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java" />
         <option value="$PROJECT_DIR$/ant/SignApplication-Manual.xml" />
         <option value="$PROJECT_DIR$/JEnvelope.jnlp" />
         <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/MenusAndButtons.java" />
         <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/AddressesXML.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/AppProperties.java" />
         <option value="$PROJECT_DIR$/jnlp/JEnvelope.jnlp" />
+        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/AppProperties.java" />
+        <option value="$PROJECT_DIR$/scripts/jenvelope.command" />
+        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java" />
         <option value="$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml" />
       </list>
     </option>
@@ -238,8 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,10 +233,17 @@
               <item name="JEnvelope" type="462c0819:PsiDirectoryNode" />
               <item name="jnlp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JEnvelope" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JEnvelope" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,16 +258,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ant/SignApplication-Manual.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeoBasis/BeoBasis-unsigned.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -390,16 +379,21 @@
       <workItem from="1521559400149" duration="74000" />
       <workItem from="1563296616507" duration="489000" />
       <workItem from="1563308468272" duration="726000" />
+      <workItem from="1563314080894" duration="657000" />
+      <workItem from="1563324553197" duration="708000" />
+      <workItem from="1563332612897" duration="1162000" />
+      <workItem from="1563373232294" duration="1081000" />
+      <workItem from="1563401533893" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34745000" />
+    <option name="totallyTimeSpent" value="39474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6720086" visible="true" weight="0.23987207" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6720086" visible="true" weight="0.2531983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" sideWeight="0.6880342" weight="0.1782284" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -419,12 +413,12 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Application Servers" order="10" />
       <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3242148" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32398754" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info active="true" anchor="right" id="Ant Build" order="1" sideWeight="0.6748401" visible="true" weight="0.2489339" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.6748401" visible="true" weight="0.2489339" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.67094016" weight="0.2497332" />
       <window_info anchor="right" id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -596,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="74" selection-start-line="83" selection-start-column="74" selection-end-line="83" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/Global.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -610,17 +597,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/launch.sh" />
     <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="6">
+          <caret line="356" column="43" selection-start-line="356" selection-start-column="43" selection-end-line="356" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/jenvelope.command">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -715,7 +713,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JasperReports</last-edited>
+          <last-edited>BeoBasis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

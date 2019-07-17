@@ -13,7 +13,7 @@
   <property name="dirs.base" value="${basedir}"/>
 
   <property name="Beo.Title" value="JEnvelope"/>
-  <property name="Beo.Version" value="2019.0.7"/>
+  <property name="Beo.Version" value="2019.0.4"/>
   <property name="Beo.Vendor" value="Beowurks"/>
   <property name="Beo.AppClass" value="com.beowurks.JEnvelope.Application"/>
 
