@@ -18,6 +18,8 @@ import com.beowurks.BeoCommon.Dialogs.Credits.DialogCredits;
 import com.beowurks.BeoCommon.Dialogs.Credits.ICredit;
 import com.beowurks.BeoCommon.GridBagLayoutHelper;
 import com.beowurks.BeoCommon.Util;
+import com.beowurks.BeoDesktop.DesktopHelper;
+import com.beowurks.BeoDesktop.IDesktopAdapter;
 import com.beowurks.BeoLookFeel.LFDialog;
 import com.beowurks.JEnvelope.forms.DialogPrinterInfo1;
 import com.beowurks.JEnvelope.jasperreports.DialogPrintEnvelope;
@@ -48,7 +50,7 @@ import java.util.Vector;
 // ---------------------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------------------------------------
 
-public class FrameMain extends FrameJEnvelopeBase implements ActionListener, MouseMotionListener, MouseListener
+public class FrameMain extends FrameJEnvelopeBase implements ActionListener, MouseMotionListener, MouseListener, IDesktopAdapter
 {
   private final static String FONT_NAME = "Arial";
   private final static int DISPLAY_BORDER = 70;
@@ -129,6 +131,8 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     this.setupLabels();
     this.setupListeners();
     this.setupLayouts();
+
+    DesktopHelper.setupDesktop(this);
 
     this.readProperties();
     this.updateManualEntry(true);
@@ -970,6 +974,31 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     {
       this.setMessageBarText(((JMenuItem) loSource).getToolTipText());
     }
+  }
+
+  // ---------------------------------------------------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------------------------------------------------
+  // Interface IDesktopAdapter
+  // ---------------------------------------------------------------------------------------------------------------------
+  @Override
+  public void AboutHandler()
+  {
+    this.showAbout();
+  }
+
+  // ---------------------------------------------------------------------------------------------------------------------
+  @Override
+  public void PreferencesHandler()
+  {
+    Util.infoMessage(this, "There aren't any preferences for this application.");
+  }
+
+  // ---------------------------------------------------------------------------------------------------------------------
+  @Override
+  public void QuitHandler()
+  {
+    Util.infoMessage(this, "Howdy and interesting");
+    this.performShutdownMaintenance();
   }
   // ---------------------------------------------------------------------------------------------------------------------
 }
