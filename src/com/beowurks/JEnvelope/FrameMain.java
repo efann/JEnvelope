@@ -41,6 +41,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
+import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.net.URL;
@@ -286,6 +287,18 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     this.cboAddressee1.addActionListener(this);
 
     this.chkAddressee1ManualEntry.addActionListener(this);
+
+    this.addWindowListener(new WindowAdapter()
+    {
+      // By the way, WINDOW_CLOSING is never passed to super.processWindowEvent.
+      // So you have to override windowClosing.
+      @Override
+      public void windowClosing(WindowEvent windowEvent)
+      {
+        FrameMain.this.performShutdownMaintenance();
+      }
+    });
+
   }
 
   // ---------------------------------------------------------------------------------------------------------------------
@@ -322,7 +335,7 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
 
     if (loMenuItem == this.foMenusAndButtons.menuExit1)
     {
-      this.performShutdownMaintenance();
+      this.closeWindow();
     }
     else if (loMenuItem == this.foMenusAndButtons.menuPrinterInfo1)
     {
@@ -470,21 +483,6 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
     Global.cleanFilesFromTemporaryDirectories();
 
     System.exit(0);
-  }
-
-  // ---------------------------------------------------------------------------------------------------------------------
-  // Overridden so we can exit when window is closed
-  @Override
-  protected void processWindowEvent(final WindowEvent e)
-  {
-    super.processWindowEvent(e);
-
-    switch (e.getID())
-    {
-      case WindowEvent.WINDOW_CLOSING:
-        this.performShutdownMaintenance();
-        break;
-    }
   }
 
   // ---------------------------------------------------------------------------------------------------------------------
@@ -997,9 +995,9 @@ public class FrameMain extends FrameJEnvelopeBase implements ActionListener, Mou
   @Override
   public void QuitHandler()
   {
-    Util.infoMessage(this, "Howdy and interesting");
-    this.performShutdownMaintenance();
+    this.closeWindow();
   }
+
   // ---------------------------------------------------------------------------------------------------------------------
 }
 // ---------------------------------------------------------------------------------------------------------------------

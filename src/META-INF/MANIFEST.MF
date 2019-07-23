@@ -3,8 +3,8 @@ Ant-Version: Apache Ant 1.10.5
 Created-By: 12.0.1+12 (Oracle Corporation)
 Main-Class: com.beowurks.JEnvelope.Application
 Implementation-Vendor: Beowurks
-Implementation-Version: 2019.0.4
+Implementation-Version: 2019.0.7
 Implementation-Title: JEnvelope
-Built-On: 2019-07-18 11:35:49
+Built-On: 2019-07-23 17:23:52
 Permissions: all-permissions
 
