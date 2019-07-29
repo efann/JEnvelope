@@ -11,14 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1f92bb0-41f3-46a3-804b-f127feb20b48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java" afterDir="false" />
     </list>
-    <ignored path="JEnvelope.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,32 +67,6 @@
   <component name="FavoritesManager">
     <favorites_list name="JEnvelope" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>package JEnvelope</find>
-      <find>addresses.</find>
-      <find>http://www.beowurks.com/</find>
-      <find>obtaining</find>
-      <find>about</find>
-      <find>readprop</find>
-      <find>setuplist</find>
-      <find>closeWindow</find>
-      <find>performShutdownMaintenance</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>package com.beowurks.JEnvelope</replace>
-      <replace>// ---------------------------------------------------------------------------------------------------------------------</replace>
-      <replace>Application.isDevelopmentEnvironment</replace>
-      <replace>JEnvelope</replace>
-      <replace>https://www.beowurks.com/</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>D:\IntelliJ\JEnvelope\src</dir>
-    </dirStrings>
-  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -107,40 +74,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/contacts.vcf" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/Application.java" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/Address.java" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/forms/DialogPrinterInfo1.java" />
-        <option value="$PROJECT_DIR$/src/JNLP-INF/APPLICATION.JNLP" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/MenusAndButtons.java" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/AddressesXML.java" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/jasperreports/DialogPrintEnvelope.java" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/Global.java" />
-        <option value="$PROJECT_DIR$/Eddie.Properties" />
-        <option value="$PROJECT_DIR$/src/build.xml" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/FrameMain.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/JEnvelope/AppProperties.java" />
-        <option value="$PROJECT_DIR$/src/JEnvelope/AppProperties.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameJEnvelopeBase.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/forms/DialogPrinterInfo1.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/jasperreports/DialogPrintEnvelope.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/Application.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/Global.java" />
-        <option value="$PROJECT_DIR$/ant/SignApplication-Manual.xml" />
-        <option value="$PROJECT_DIR$/JEnvelope.jnlp" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/MenusAndButtons.java" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/AddressesXML.java" />
-        <option value="$PROJECT_DIR$/jnlp/JEnvelope.jnlp" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/AppProperties.java" />
-        <option value="$PROJECT_DIR$/scripts/jenvelope.command" />
-        <option value="$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java" />
-        <option value="$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -153,12 +86,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
-  </component>
+  <component name="ProjectId" id="1OYlS8GvDNJOCptISy6G0E7yfnz" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -193,41 +121,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JEnvelope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEnvelope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JEnvelope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEnvelope" type="462c0819:PsiDirectoryNode" />
-              <item name="ant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JEnvelope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEnvelope" type="462c0819:PsiDirectoryNode" />
-              <item name="jnlp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JEnvelope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEnvelope" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -374,81 +267,24 @@
       <workItem from="1563814984324" duration="607000" />
       <workItem from="1563821971495" duration="54000" />
       <workItem from="1563822107406" duration="5515000" />
+      <workItem from="1563990120309" duration="1124000" />
+      <workItem from="1564162408948" duration="575000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55657000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6720086" visible="true" weight="0.271855" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="2" sideWeight="0.6880342" weight="0.1782284" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Palette&#9;" order="4" />
-      <window_info id="Persistence" order="5" sideWeight="0.16773504" side_tool="true" weight="0.17712177" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3272543" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26272067" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.22796352" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Changes" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32398754" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info active="true" anchor="right" id="Ant Build" order="1" sideWeight="0.6748401" visible="true" weight="0.2489339" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.67094016" weight="0.2497332" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6720086" visible="true" weight="0.17358893" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="UI Designer" order="3" sideWeight="0.6880342" weight="0.1782284" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Persistence" order="5" sideWeight="0.16773504" side_tool="true" weight="0.17712177" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32883817" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32676348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.22863248" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Changes" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32572615" />
-      <window_info anchor="bottom" id="CheckStyle" order="12" weight="0.32905984" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.6748401" weight="0.2497332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.67094016" weight="0.2497332" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -462,171 +298,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/src" />
     </ignored-roots>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml">
-      <targetFilters>
-        <filter targetName="build" isVisible="false" />
-        <filter targetName="buildManifest" isVisible="false" />
-      </targetFilters>
-      <expanded value="true" />
-    </buildFile>
-    <buildFile url="file://$PROJECT_DIR$/ant/SignApplication-Manual.xml">
-      <targetFilters>
-        <filter targetName="build" isVisible="false" />
-        <filter targetName="signApplication" isVisible="false" />
-      </targetFilters>
-      <expanded value="true" />
-    </buildFile>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/jasperreports/JRViewerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/DialogJEnvelopeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eddie.Properties" />
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/forms/DialogPrinterInfo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="120" column="84" selection-start-line="120" selection-start-column="84" selection-end-line="120" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/jasperreports/DialogPrintEnvelope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.vcf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="2084" column="19" selection-start-line="2084" selection-start-column="12" selection-end-line="2084" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JNLP-INF/APPLICATION.JNLP" />
-    <entry file="file://$PROJECT_DIR$/ant/SignApplication-Manual.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/build.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JEnvelope.jnlp" />
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/MenusAndButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addresses.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt" />
-    <entry file="file://$PROJECT_DIR$/jnlp/JEnvelope.jnlp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/AddressesXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8262">
-          <caret line="486" column="18" selection-start-line="486" selection-start-column="18" selection-end-line="486" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/Global.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/launch.sh" />
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/AppProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/jenvelope.command">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../BeoBasis/BeoBasis-unsigned.jar!/com/beowurks/BeoCommon/BaseFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameJEnvelopeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant/ManifestUpdate-Manual.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/beowurks/JEnvelope/FrameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="295" column="56" lean-forward="true" selection-start-line="295" selection-start-column="56" selection-end-line="295" selection-end-column="56" />
-          <folding>
-            <element signature="e#11787#11788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
